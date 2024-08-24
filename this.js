@@ -14,3 +14,36 @@ let student = {
 }
 
 student.avgMarks();
+
+// this keyword -- 4
+
+let employee = {
+    name: "Aftab",
+    dept: "SP",
+    skills: "python",
+    prop: "this",
+    getName: function(){
+        console.log(this);
+        return this.name;
+    }, 
+    getDept: () => {
+        console.log(this); // parent scope window
+        return this.dept;
+    },
+    getInfo1: function(){
+        setTimeout(() =>{
+            console.log(this)
+        },2000)
+    },
+    getInfo2: function(){
+        setTimeout(function(){
+            console.log(this);
+        },2000)
+    }
+
+}
+
+
+//console.log(employee.getName());
+console.log(employee.getDept());
+console.log(employee.getInfo1());

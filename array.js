@@ -90,3 +90,4 @@ let arr1 = [1,2,3]
 console.log(arr == arr1); // there is arr and arr1 both address are different that's why return false value. 
 let arr2 = arr; // we are coping the address of arr into arr2
 console.log(arr == arr2);
+

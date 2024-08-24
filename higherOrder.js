@@ -1,18 +1,18 @@
 
 // take one or multiple function as a arguments
 
-// function multiGreet(func,count){
-//     for(let i=1; i<=count; i++){
-//         greet()
-//     }
+function multiGreet(func,count){
+    for(let i=1; i<=count; i++){
+        greet()
+    }
 
-// }
+}
 
-// let greet = function(){
-//     console.log("hello");
-// }
+let greet = function(){
+    console.log("hello");
+}
 
-// multiGreet(greet,5);
+multiGreet(greet,5);
 
 //
 function oddevenFact(request){

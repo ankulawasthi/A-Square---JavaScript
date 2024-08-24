@@ -77,3 +77,4 @@ const classInfo = [
 console.log(classInfo);
 
 console.log(classInfo[0].name);
+
